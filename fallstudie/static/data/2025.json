@@ -1,0 +1,12 @@
+[
+    {
+        "emission": 100,
+        "country": "USA",
+        "company": "Amazon"
+    },
+    {
+        "emission": 99,
+        "country": "USA",
+        "company": "Exxon Mobil"
+    }
+]
