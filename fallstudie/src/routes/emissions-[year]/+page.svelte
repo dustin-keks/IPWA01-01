@@ -62,7 +62,9 @@
     <caption>Fiktive Daten</caption>
     <thead>
       <tr>
-        <th scope="col" onclick={sortByEmission}>CO₂-Emissionsdaten</th>
+        <th scope="col" onclick={sortByEmission}
+          >Emission in Millionen Tonnen CO₂</th
+        >
         <th scope="col" onclick={sortByCountry}>Land</th>
         <th scope="col" onclick={sortByCompany}>Unternehmen</th>
       </tr>

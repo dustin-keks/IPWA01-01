@@ -1,12 +1,512 @@
 [
     {
-        "emission": 100,
-        "country": "USA",
+        "emission": 433,
+        "country": "Indien",
         "company": "Amazon"
     },
     {
-        "emission": 99,
+        "emission": 417,
         "country": "USA",
+        "company": "Apple"
+    },
+    {
+        "emission": 466,
+        "country": "Frankreich",
+        "company": "Google"
+    },
+    {
+        "emission": 244,
+        "country": "Südkorea",
+        "company": "Meta"
+    },
+    {
+        "emission": 370,
+        "country": "Japan",
+        "company": "Microsoft"
+    },
+    {
+        "emission": 242,
+        "country": "Brasilien",
         "company": "Exxon Mobil"
+    },
+    {
+        "emission": 256,
+        "country": "Kanada",
+        "company": "Chevron"
+    },
+    {
+        "emission": 351,
+        "country": "USA",
+        "company": "BP"
+    },
+    {
+        "emission": 176,
+        "country": "China",
+        "company": "Shell"
+    },
+    {
+        "emission": 472,
+        "country": "Kanada",
+        "company": "Toyota"
+    },
+    {
+        "emission": 138,
+        "country": "Indien",
+        "company": "Volkswagen"
+    },
+    {
+        "emission": 417,
+        "country": "USA",
+        "company": "Samsung"
+    },
+    {
+        "emission": 76,
+        "country": "Japan",
+        "company": "Berkshire Hathaway"
+    },
+    {
+        "emission": 389,
+        "country": "UK",
+        "company": "Tesla"
+    },
+    {
+        "emission": 258,
+        "country": "Deutschland",
+        "company": "Johnson & Johnson"
+    },
+    {
+        "emission": 313,
+        "country": "Brasilien",
+        "company": "Nestle"
+    },
+    {
+        "emission": 213,
+        "country": "Brasilien",
+        "company": "Procter & Gamble"
+    },
+    {
+        "emission": 155,
+        "country": "Frankreich",
+        "company": "Coca-Cola"
+    },
+    {
+        "emission": 454,
+        "country": "Deutschland",
+        "company": "PepsiCo"
+    },
+    {
+        "emission": 301,
+        "country": "Japan",
+        "company": "Walmart"
+    },
+    {
+        "emission": 364,
+        "country": "Südkorea",
+        "company": "Nike"
+    },
+    {
+        "emission": 124,
+        "country": "Japan",
+        "company": "Adidas"
+    },
+    {
+        "emission": 335,
+        "country": "UK",
+        "company": "Sony"
+    },
+    {
+        "emission": 321,
+        "country": "Brasilien",
+        "company": "Honda"
+    },
+    {
+        "emission": 208,
+        "country": "Deutschland",
+        "company": "Daimler"
+    },
+    {
+        "emission": 269,
+        "country": "UK",
+        "company": "Unilever"
+    },
+    {
+        "emission": 54,
+        "country": "Kanada",
+        "company": "Pfizer"
+    },
+    {
+        "emission": 483,
+        "country": "Japan",
+        "company": "Novartis"
+    },
+    {
+        "emission": 381,
+        "country": "Südkorea",
+        "company": "Roche"
+    },
+    {
+        "emission": 92,
+        "country": "Frankreich",
+        "company": "Intel"
+    },
+    {
+        "emission": 176,
+        "country": "China",
+        "company": "TSMC"
+    },
+    {
+        "emission": 461,
+        "country": "USA",
+        "company": "Oracle"
+    },
+    {
+        "emission": 328,
+        "country": "USA",
+        "company": "IBM"
+    },
+    {
+        "emission": 64,
+        "country": "USA",
+        "company": "Cisco"
+    },
+    {
+        "emission": 263,
+        "country": "UK",
+        "company": "AT&T"
+    },
+    {
+        "emission": 234,
+        "country": "Brasilien",
+        "company": "Verizon"
+    },
+    {
+        "emission": 457,
+        "country": "Japan",
+        "company": "Comcast"
+    },
+    {
+        "emission": 197,
+        "country": "Kanada",
+        "company": "Disney"
+    },
+    {
+        "emission": 249,
+        "country": "Brasilien",
+        "company": "McDonald's"
+    },
+    {
+        "emission": 417,
+        "country": "Südkorea",
+        "company": "Starbucks"
+    },
+    {
+        "emission": 434,
+        "country": "Deutschland",
+        "company": "Netflix"
+    },
+    {
+        "emission": 53,
+        "country": "Brasilien",
+        "company": "Uber"
+    },
+    {
+        "emission": 419,
+        "country": "Südkorea",
+        "company": "Airbnb"
+    },
+    {
+        "emission": 456,
+        "country": "Südkorea",
+        "company": "Booking Holdings"
+    },
+    {
+        "emission": 281,
+        "country": "Indien",
+        "company": "Goldman Sachs"
+    },
+    {
+        "emission": 405,
+        "country": "Brasilien",
+        "company": "JPMorgan Chase"
+    },
+    {
+        "emission": 71,
+        "country": "USA",
+        "company": "Bank of America"
+    },
+    {
+        "emission": 468,
+        "country": "Südkorea",
+        "company": "Wells Fargo"
+    },
+    {
+        "emission": 464,
+        "country": "Japan",
+        "company": "Citigroup"
+    },
+    {
+        "emission": 184,
+        "country": "Deutschland",
+        "company": "HSBC"
+    },
+    {
+        "emission": 347,
+        "country": "China",
+        "company": "Barclays"
+    },
+    {
+        "emission": 286,
+        "country": "Frankreich",
+        "company": "Deutsche Bank"
+    },
+    {
+        "emission": 330,
+        "country": "Japan",
+        "company": "Siemens"
+    },
+    {
+        "emission": 426,
+        "country": "Japan",
+        "company": "General Electric"
+    },
+    {
+        "emission": 497,
+        "country": "Kanada",
+        "company": "3M"
+    },
+    {
+        "emission": 317,
+        "country": "USA",
+        "company": "Lockheed Martin"
+    },
+    {
+        "emission": 345,
+        "country": "Indien",
+        "company": "Raytheon"
+    },
+    {
+        "emission": 400,
+        "country": "Frankreich",
+        "company": "Boeing"
+    },
+    {
+        "emission": 465,
+        "country": "Indien",
+        "company": "Airbus"
+    },
+    {
+        "emission": 59,
+        "country": "Japan",
+        "company": "SpaceX"
+    },
+    {
+        "emission": 409,
+        "country": "Südkorea",
+        "company": "Alibaba"
+    },
+    {
+        "emission": 87,
+        "country": "USA",
+        "company": "Tencent"
+    },
+    {
+        "emission": 479,
+        "country": "Japan",
+        "company": "Baidu"
+    },
+    {
+        "emission": 76,
+        "country": "Indien",
+        "company": "JD.com"
+    },
+    {
+        "emission": 377,
+        "country": "Südkorea",
+        "company": "Huawei"
+    },
+    {
+        "emission": 309,
+        "country": "Frankreich",
+        "company": "Xiaomi"
+    },
+    {
+        "emission": 418,
+        "country": "Japan",
+        "company": "Lenovo"
+    },
+    {
+        "emission": 102,
+        "country": "China",
+        "company": "Nvidia"
+    },
+    {
+        "emission": 84,
+        "country": "Südkorea",
+        "company": "AMD"
+    },
+    {
+        "emission": 121,
+        "country": "Indien",
+        "company": "Qualcomm"
+    },
+    {
+        "emission": 333,
+        "country": "Südkorea",
+        "company": "Texas Instruments"
+    },
+    {
+        "emission": 283,
+        "country": "China",
+        "company": "Samsung Biologics"
+    },
+    {
+        "emission": 197,
+        "country": "UK",
+        "company": "GlaxoSmithKline"
+    },
+    {
+        "emission": 296,
+        "country": "Kanada",
+        "company": "AstraZeneca"
+    },
+    {
+        "emission": 146,
+        "country": "Deutschland",
+        "company": "Sanofi"
+    },
+    {
+        "emission": 217,
+        "country": "Frankreich",
+        "company": "Merck"
+    },
+    {
+        "emission": 240,
+        "country": "Kanada",
+        "company": "Bayer"
+    },
+    {
+        "emission": 299,
+        "country": "China",
+        "company": "Philips"
+    },
+    {
+        "emission": 134,
+        "country": "Indien",
+        "company": "Ikea"
+    },
+    {
+        "emission": 128,
+        "country": "Deutschland",
+        "company": "H&M"
+    },
+    {
+        "emission": 333,
+        "country": "Japan",
+        "company": "Zara"
+    },
+    {
+        "emission": 238,
+        "country": "Japan",
+        "company": "LVMH"
+    },
+    {
+        "emission": 237,
+        "country": "Japan",
+        "company": "Gucci"
+    },
+    {
+        "emission": 77,
+        "country": "UK",
+        "company": "Prada"
+    },
+    {
+        "emission": 270,
+        "country": "Südkorea",
+        "company": "Hermes"
+    },
+    {
+        "emission": 287,
+        "country": "Indien",
+        "company": "Heineken"
+    },
+    {
+        "emission": 173,
+        "country": "Deutschland",
+        "company": "AB InBev"
+    },
+    {
+        "emission": 464,
+        "country": "Brasilien",
+        "company": "Carlsberg"
+    },
+    {
+        "emission": 359,
+        "country": "China",
+        "company": "Ford"
+    },
+    {
+        "emission": 407,
+        "country": "Indien",
+        "company": "General Motors"
+    },
+    {
+        "emission": 382,
+        "country": "Deutschland",
+        "company": "Stellantis"
+    },
+    {
+        "emission": 237,
+        "country": "Brasilien",
+        "company": "Hyundai"
+    },
+    {
+        "emission": 296,
+        "country": "Japan",
+        "company": "Kia"
+    },
+    {
+        "emission": 94,
+        "country": "Indien",
+        "company": "Panasonic"
+    },
+    {
+        "emission": 343,
+        "country": "Brasilien",
+        "company": "Hitachi"
+    },
+    {
+        "emission": 415,
+        "country": "USA",
+        "company": "Toshiba"
+    },
+    {
+        "emission": 219,
+        "country": "Frankreich",
+        "company": "Fujitsu"
+    },
+    {
+        "emission": 324,
+        "country": "China",
+        "company": "PayPal"
+    },
+    {
+        "emission": 98,
+        "country": "China",
+        "company": "Square"
+    },
+    {
+        "emission": 70,
+        "country": "Indien",
+        "company": "Stripe"
+    },
+    {
+        "emission": 265,
+        "country": "Kanada",
+        "company": "Salesforce"
+    },
+    {
+        "emission": 224,
+        "country": "USA",
+        "company": "Adobe"
     }
 ]
