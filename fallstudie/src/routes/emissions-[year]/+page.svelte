@@ -2,10 +2,8 @@
   // load json files through +page.js
   const { data } = $props();
 
-  // create $state rune
+  // sort table
   let sortedRows = $state([...data.rows]);
-
-  // filter table
   let asc = true;
 
   function sortByEmission() {
@@ -35,9 +33,29 @@
     });
     asc = !asc;
   }
+
+  // filter table
+  let filter = $state("");
+  const f = $derived(filter.toLowerCase());
+  const filteredRows = $derived(
+    sortedRows.filter(
+      (row) =>
+        row.emission.toString().includes(f) ||
+        row.country.toLowerCase().includes(f) ||
+        row.company.toLowerCase().includes(f)
+    )
+  );
 </script>
 
 <h2>Daten für {data.year}</h2>
+
+<input
+  class="form-control mb-1"
+  type="text"
+  placeholder="Tabelle filtern"
+  aria-label="Tabelle filtern"
+  bind:value={filter}
+/>
 
 <div class="table-responsive">
   <table class="table">
@@ -50,7 +68,7 @@
       </tr>
     </thead>
     <tbody>
-      {#each sortedRows as row}
+      {#each filteredRows as row}
         <tr>
           <td>{row.emission}</td>
           <td>{row.country}</td>
