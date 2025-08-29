@@ -4,6 +4,7 @@
   import flagAR from "$lib/assets/Flag_of_Saudi_Arabia.svg";
 
   import { onMount } from "svelte";
+  import { page } from "$app/state";
 
   onMount(() => {
     import("bootstrap/js/dist/collapse.js");
@@ -11,19 +12,39 @@
     import("bootstrap/js/dist/util/backdrop.js");
   });
 
+  // change language and direction in <main>
   function setLangDir(lang, dir) {
     document.documentElement.lang = lang;
     document.querySelector("main").dir = dir;
   }
+
+  // languages
+  const languages = [
+    { code: "de", dir: "ltr", img: flagDE, alt: "Flagge von Deutschland" },
+    { code: "ar", dir: "rtl", img: flagAR, alt: "Flagge von Saudi-Arabien" },
+  ];
+
+  // navigation items
+  const navItems = [
+    { label: "Startseite", href: "/" },
+    { label: "Über uns", href: "/about-us" },
+    { label: "Kontakt", href: "/contact" },
+    { label: "Spenden", href: "/donate" },
+  ];
+
+  // active navigation items
+  function isActive(href) {
+    return page.url.pathname === href;
+  }
 </script>
 
-<header class="bg-body-tertiary">
+<header class="bg-body-tertiary mb-3">
   <div class="container">
     <div class="row">
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <!-- logo -->
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="/">
             <img
               src={logo}
               alt="Logo CO₂-Footprint Tracker"
@@ -68,50 +89,41 @@
                 class="d-flex justify-content-end align-items-center flex-grow-0 order-lg-last"
               >
                 <div class="row">
-                  <div class="col-auto">
-                    <button
-                      onclick={() => setLangDir("de", "ltr")}
-                      type="button"
-                      class="btn"
-                    >
-                      <img
-                        src={flagDE}
-                        alt="Flagge von Deutschland"
-                        width="30"
-                        height="auto"
-                      />
-                    </button>
-                  </div>
-                  <div class="col-auto">
-                    <button
-                      onclick={() => setLangDir("ar", "rtl")}
-                      type="button"
-                      class="btn"
-                    >
-                      <img
-                        src={flagAR}
-                        alt="Flagge von Saudi Arabien"
-                        width="30"
-                        height="auto"
-                      />
-                    </button>
-                  </div>
+                  {#each languages as lang (lang.code)}
+                    <div class="col-auto">
+                      <button
+                        type="button"
+                        class="btn"
+                        onclick={() => setLangDir(lang.code, lang.dir)}
+                        aria-label={"Sprache " +
+                          lang.code.toUpperCase() +
+                          " wählen"}
+                      >
+                        <img
+                          src={lang.img}
+                          alt={lang.alt}
+                          width="30"
+                          height="auto"
+                        />
+                      </button>
+                    </div>
+                  {/each}
                 </div>
               </div>
 
               <!-- main menu -->
               <ul class="navbar-nav justify-content-center flex-grow-1">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
-                    >Home</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Pricing</a>
-                </li>
+                {#each navItems as item (item.href)}
+                  <li class="nav-item">
+                    <a
+                      class="nav-link {isActive(item.href) ? 'active' : ''}"
+                      href={item.href}
+                      aria-current={isActive(item.href) ? "page" : "false"}
+                    >
+                      {item.label}
+                    </a>
+                  </li>
+                {/each}
               </ul>
             </div>
           </div>
