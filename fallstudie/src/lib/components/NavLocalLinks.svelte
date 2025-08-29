@@ -3,7 +3,7 @@
   const years = [2025, 2024, 2023, 2022, 2021];
 </script>
 
-<nav class="list-group list-group-flush">
+<nav id="local-links" class="list-group list-group-flush sticky-top">
   {#each years as year}
     <a
       href="/emissions-{year}"
@@ -17,3 +17,9 @@
     </a>
   {/each}
 </nav>
+
+<style>
+  #local-links {
+    top: 1 rem;
+  }
+</style>
