@@ -39,3 +39,18 @@ $navbar-nav-link-padding-x: 2rem;
 @import "../node_modules/bootstrap/scss/utilities/api";
 
 // 8. Add additional custom code here
+main[dir="rtl"] {
+.input-group-text {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: var(--bs-border-radius) !important;
+    border-bottom-right-radius: var(--bs-border-radius) !important;
+  }
+
+  input {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: var(--bs-border-radius) !important;
+    border-bottom-left-radius: var(--bs-border-radius) !important;
+  }
+}
