@@ -1,3 +1,7 @@
+<svelte:head>
+  <title>Über uns</title>
+</svelte:head>
+
 <h1>Über uns</h1>
 <p>
   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum velit

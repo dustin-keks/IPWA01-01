@@ -36,6 +36,10 @@
   ];
 </script>
 
+<svelte:head>
+  <title>CO₂-Footprint Tracker</title>
+</svelte:head>
+
 <h1>Was ist der CO₂-Fußabdruck?</h1>
 <p>
   Der CO₂-Fußabdruck zeigt, wie stark unser tägliches Handeln das Klima

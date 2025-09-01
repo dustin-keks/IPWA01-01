@@ -1,3 +1,7 @@
+<svelte:head>
+  <title>Allgemeine Geschäftsbedingungen</title>
+</svelte:head>
+
 <h1>Allgemeine Geschäftsbedingungen</h1>
 <p>
   Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos voluptatum, enim

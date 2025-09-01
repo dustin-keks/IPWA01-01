@@ -9,7 +9,6 @@
 </script>
 
 <svelte:head>
-  <title>CO₂-Footprint Tracker</title>
   <link rel="icon" href={favicon} />
 </svelte:head>
 

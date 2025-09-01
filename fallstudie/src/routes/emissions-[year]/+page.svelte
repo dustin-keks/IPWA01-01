@@ -72,6 +72,10 @@
   }
 </script>
 
+<svelte:head>
+  <title>CO₂-Footprint {data.year}</title>
+</svelte:head>
+
 <h1 class="mb-3">Daten für {data.year}</h1>
 
 <div class="input-group mb-3">
