@@ -20,6 +20,6 @@
 
 <style>
   #local-links {
-    top: 1 rem;
+    top: 1rem;
   }
 </style>
