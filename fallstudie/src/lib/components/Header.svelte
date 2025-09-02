@@ -5,11 +5,21 @@
 
   import { onMount } from "svelte";
   import { page } from "$app/state";
+  import { afterNavigate } from "$app/navigation";
 
   onMount(() => {
     import("bootstrap/js/dist/collapse.js");
     import("bootstrap/js/dist/offcanvas.js");
     import("bootstrap/js/dist/util/backdrop.js");
+  });
+
+  // close offcanvas
+  afterNavigate(() => {
+    const offcanvas = document.querySelector("#offcanvasNavbar");
+
+    if (offcanvas.classList.contains("show")) {
+      offcanvas.querySelector(".btn-close").click();
+    }
   });
 
   // change language and direction in <main>
