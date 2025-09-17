@@ -1,4 +1,4 @@
-# IU Intertnationale Hochschule
+# IU Internationale Hochschule
 ## Fallstudie
 ### Programmierung von Webanwendungsoberflächen (IPWA01-01)
 #### Aufgabenstellung 1: CO₂-Footprint  
