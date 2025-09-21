@@ -109,12 +109,7 @@
                           lang.code.toUpperCase() +
                           " wählen"}
                       >
-                        <img
-                          src={lang.img}
-                          alt={lang.alt}
-                          width="30"
-                          height="auto"
-                        />
+                        <img src={lang.img} alt={lang.alt} width="30" />
                       </button>
                     </div>
                   {/each}
