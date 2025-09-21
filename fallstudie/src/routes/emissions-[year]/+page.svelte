@@ -81,6 +81,7 @@
 <div class="input-group mb-3">
   <span class="input-group-text" id="lupe">⌕</span>
   <input
+    name="filter-table"
     class="form-control"
     type="text"
     placeholder="Tabelle filtern"
